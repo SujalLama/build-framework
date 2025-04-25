@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla TODO</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="main-wrapper">
+        <div class="main-wrapper__content">
+          <h2>My vanilla Todo app</h2>
+
+          <form class="todo-form">
+            <input class="todo-form__input" />
+            <button class="todo-form__btn">Add</button>
+          </form>
+
+          <div class="todo-list-wrapper">
+            <h2>Todos</h2>
+
+            <ul class="todo-list js-todos"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

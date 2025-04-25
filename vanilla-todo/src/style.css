@@ -1,0 +1,91 @@
+/*========= containers ===========*/
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-wrapper__content {
+  max-width: 600px;
+  min-width: 500px;
+  margin-top: 20px;
+}
+
+/*========= todo form ===========*/
+.todo-form {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.todo-form .todo-form__input {
+  min-width: 200px;
+  border-radius: 8px;
+  padding: 8px 4px;
+  border: 1px solid #444;
+}
+
+.todo-form .todo-form__btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: greenyellow;
+}
+
+/*========= todos styles ===========*/
+
+.todo-list-wrapper h2 {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.todo-item__input {
+  border-radius: 8px;
+  padding: 8px 4px;
+  border: 1px solid #444;
+}
+
+.todo-item__btns {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-item__btn--done {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: greenyellow;
+}
+
+.todo-item__btn--save {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: greenyellow;
+}
+
+.todo-item__btn--cancel {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: greenyellow;
+}
